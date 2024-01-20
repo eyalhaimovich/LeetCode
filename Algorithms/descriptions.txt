@@ -1,0 +1,7 @@
+FindTheIndexofFirstOccurrenceInAString :
+	search for a string within a larger string using KMP algorithm
+	preprocess search word into array of prefix matching suffix
+	     if suffix matches prefix, count the amount 1,2,3 etc.
+	when searching, use the array to determine if prefix matches suffix,
+	if so, use array to determine how far through search word to keep n
+	this approach retains suffix matches, allowing to skip characters during search.

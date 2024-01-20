@@ -1,0 +1,2 @@
+SearchInsertPosition:
+	simple binary search through sorted array

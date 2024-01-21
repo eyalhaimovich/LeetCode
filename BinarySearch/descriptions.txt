@@ -1,2 +1,4 @@
 SearchInsertPosition:
 	simple binary search through sorted array
+Sqrtx:
+    Binary search to find sqrt. Comparing to mid*mid is trick

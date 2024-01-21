@@ -5,3 +5,5 @@ FindTheIndexofFirstOccurrenceInAString :
 	when searching, use the array to determine if prefix matches suffix,
 	if so, use array to determine how far through search word to keep n
 	this approach retains suffix matches, allowing to skip characters during search.
+ClimbingStairs:
+    Intro to recursions / top-down vs. bottom-up programing.

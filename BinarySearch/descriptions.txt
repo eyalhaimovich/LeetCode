@@ -7,3 +7,7 @@ Sqrtx:
 BinaryTreeInorderTraversal:
 	INORDER traversal of a binary tree. Used to return non-descending order
 	*Stack to store previous roots		*root OR stack to eliminate left.root loop
+
+SameTree:
+	Traverse through two trees at once and compare their values / structure
+	*recursive looks better w easier base conditions *have enough test conditions

@@ -1,0 +1,19 @@
+SearchInsertPosition:
+	simple binary search through sorted array
+
+Sqrtx:
+    Binary search to find sqrt. Comparing to mid*mid is trick
+
+BinaryTreeInorderTraversal:
+	INORDER traversal of a binary tree. Used to return non-descending order
+	*Stack to store previous roots		*root OR stack to eliminate left.root loop
+
+SameTree:
+	Traverse through two trees at once and compare their values / structure
+	*recursive looks better w easier base conditions *have enough test conditions
+
+SymmetricTree:
+    Traversing both sides of tree and comparing both recursive and iterative
+    recursive uses "return (l.val == r.val and dfs(l.left, r.right) and dfs(l.right, r.left))"
+    iterative uses "stack = [(root.left, root.right)]", "l, r = stack.pop()" and
+        "stack.append((l.left, r.right)), stack.append((l.right, r.left))"

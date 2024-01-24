@@ -1,4 +1,9 @@
 SearchInsertPosition:
 	simple binary search through sorted array
+
 Sqrtx:
     Binary search to find sqrt. Comparing to mid*mid is trick
+
+BinaryTreeInorderTraversal:
+	INORDER traversal of a binary tree. Used to return non-descending order
+	*Stack to store previous roots		*root OR stack to eliminate left.root loop
